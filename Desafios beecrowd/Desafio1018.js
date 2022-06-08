@@ -7,7 +7,7 @@ var notas = parseInt(valor/100);
 console.log(`${notas} nota(s) de R$ ${100},00`);
 valor = valor % 100;
 
-notas = parseInt(valor/50);
+var notas = parseInt(valor/50);
 console.log(`${notas} nota(s) de R$ ${50},00`);
 valor = valor % 50;
 
